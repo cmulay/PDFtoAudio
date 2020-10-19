@@ -19,7 +19,7 @@ pip install PyPDF2
 
 ## Usage
 
-Import installed packages
+Import installed libraries
 ```python
 import pyttsx3 # Python Text to Speech Version 3
 import PyPDF2 # Python PDF Reader/Writer 2
