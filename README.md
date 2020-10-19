@@ -1,10 +1,14 @@
 # Python-Automation-Script
 
-This Python Automation Script will read PDF's out loud 
+This Python Automation Script will read PDF's out loud.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pyttsx3.
+Check whether  you are running latest package manager [pip](https://pip.pypa.io/en/stable/)
+```bash
+pip install --upgrade pip
+```
+Use the package manager to install pyttsx3.
 ```bash
 pip install pyttsx3
 ```
@@ -20,9 +24,10 @@ Import installed packages
 import pyttsx3 # Python Text to Speech Version 3
 import PyPDF2 # Python PDF Reader/Writer 2
 ```
+Copy & Paste your desired PDF in project folder.
 Open the book you want to listen  
 ```python
-book = open('pdf_name.pdf', 'rb') # Opens pdf in book
+book = open('pdf_name.pdf', 'rb') # Opens pdf in book (replace pdf_name.pdf with you pdf name)
 ```
 Pre-work such as reading total number of pages from the book
 ```python
