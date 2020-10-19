@@ -25,6 +25,7 @@ import pyttsx3 # Python Text to Speech Version 3
 import PyPDF2 # Python PDF Reader/Writer 2
 ```
 Copy & Paste your desired PDF in project folder.
+
 Open the book you want to listen  
 ```python
 book = open('pdf_name.pdf', 'rb') # Opens pdf in book (replace pdf_name.pdf with you pdf name)
